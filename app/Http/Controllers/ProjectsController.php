@@ -9,9 +9,7 @@ use Illuminate\Http\Request;
 use Input;
 use Redirect;
 
-class Project extends Model {
-
-    protected $guarded = [];
+class ProjectsController extends Controller {
 
     /**
      * Display a listing of the resource.

@@ -10,9 +10,7 @@ use Illuminate\Http\Request;
 use Input;
 use Redirect;
 
-class Task extends Model {
-
-    protected $guarded = [];
+class TasksController extends Controller {
 
     /**
      * Display a listing of the resource.
