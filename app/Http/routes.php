@@ -17,8 +17,6 @@ Route::get('home', 'HomeController@index');
 
 Route::get("/contacto", "WelcomeController@showContacto");
 
-//Route::get("/contacto", "WelcomeController@showContacto"); A projects
-
 Route::controllers([
     'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController',
